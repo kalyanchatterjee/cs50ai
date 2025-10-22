@@ -1,0 +1,32 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE/project settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore your specific folders
+# (add or remove as needed)
+degrees/large
+degrees/small
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
