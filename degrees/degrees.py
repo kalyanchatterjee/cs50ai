@@ -129,7 +129,7 @@ def shortest_path(source, target):
                 new_node = Node(state=neighbour[1], parent=node, action=neighbour)
                 frontier.add(new_node)
             else:
-                pass    
+                pass
 
 def reverse(node: Node):
     path = []
